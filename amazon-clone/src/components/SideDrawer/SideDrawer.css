@@ -1,0 +1,42 @@
+.side-drawer {
+  height: 100vh;
+  background-color: #131921;
+  width: 60vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.5);
+  z-index: 100;
+  font-size: 1.3em;
+}
+
+.drawer-close-btn {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+  padding: 4%;
+}
+
+button {
+  cursor: pointer;
+  background: transparent;
+  color: white;
+  font-size: 1.5em;
+  border: 0;
+}
+
+.side-drawer .header-links .nav-link {
+  display: block;
+  border-bottom: 1px solid white;
+}
+
+.side-drawer .header-links > span {
+  font-size: 1em;
+}
+
+.side-drawer .header-links .nav-link .nav-link-options {
+  flex-direction: row;
+  margin-bottom: 1em;
+}
